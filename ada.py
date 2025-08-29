@@ -1,11 +1,12 @@
 def ada():
     first_name = "AdA"
     last_name = "LoVeLAce"
+    full_name = first_name + " " + last_name
     
-    print(first_name.lower(), last_name.lower())
-    print(first_name.capitalize(), last_name.capitalize())
-    print(first_name.upper(), last_name.upper())
-    print("\t", first_name.lower(), last_name.lower())
+    print(full_name.lower())
+    print(full_name.title())
+    print(full_name.upper())
+    print("\t", full_name.lower())
     
     
 ada()
