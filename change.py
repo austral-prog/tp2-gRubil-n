@@ -9,8 +9,8 @@ def change():
     enPesos = int((money-expense) // 1)
     enCentavos = int(((money-expense) - int(money-expense)) * 100)
 
-    print("\n Vuelto")
-    print("Pesos:")
+    print("\nVuelto")
+    print("\nPesos:")
     print(enPesos)
     print("Centavos:")
     print(enCentavos)
